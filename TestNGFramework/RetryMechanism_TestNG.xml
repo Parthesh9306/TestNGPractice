@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "SmokeTesting">
+
+<listeners>
+<listener class-name="Retry_Failed_TestCase.CustomListner"/>
+</listeners>
+
+<test name="Smoke Test">
+<classes>
+<class name="Retry_Failed_TestCase.TestNGTest1" />
+<class name="Retry_Failed_TestCase.TestNGTest2" />
+</classes>
+</test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReportNGTest2"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.002">
+  <properties />
+  
+            <testcase name="reportNGTest4Test" time="0.0" classname="ReportNG.ReportNGTest2">
+          <skipped />
+    </testcase>
+  
+            <testcase name="reportNGTest3Test" time="0.001" classname="ReportNG.ReportNGTest2" />
+                <testcase name="reportNGTest5Test" time="0.001" classname="ReportNG.ReportNGTest2" />
+      
+</testsuite>
